@@ -5,7 +5,7 @@ from your query.
 
 To achieve this we use inside `Mongo.Collection` the `addReducers()` method:
 ```js
-Collection.addReducer({
+Collection.addReducers({
     reducerName: {
         body: graphDependencyBody,
         reduce(object) {
